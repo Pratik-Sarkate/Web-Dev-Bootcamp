@@ -11,3 +11,5 @@ This repo consists of all my code files of the web development boot camp.
 3. [DevDocs](https://devdocs.io/) -for documentation
 
 4. [MDN Documentation](https://developer.mozilla.org/en-US/)
+
+5. [HTML Cheatsheet](https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf)
