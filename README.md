@@ -9,3 +9,5 @@ This repo consists of all my code files of the web development boot camp.
 2. [Web Development Course Resources List](https://www.appbrewery.co/p/web-development-course-resources/) - By Angela Yu
 
 3. [DevDocs](https://devdocs.io/) -for documentation
+
+4. [MDN Documentation](https://developer.mozilla.org/en-US/)
