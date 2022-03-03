@@ -71,4 +71,33 @@ a{
     
 }
 
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
 
+.code-img{
+    width: 25%;
+    float: left; 
+    margin-right: 30px;
+}
+
+.chilli-img{
+    width: 25%;
+    float: right; 
+    margin-left: 30px;
+}
+
+
+/*  FLOAT and CLEAR properties --> avoid using it
+
+.code-skill-description{
+    clear: left;  -> behaves like anti float
+}
+
+.chilli-skill-description{
+    clear: right;
+}
+*/
