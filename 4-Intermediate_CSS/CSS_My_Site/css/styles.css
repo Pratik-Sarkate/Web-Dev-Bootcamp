@@ -1,3 +1,9 @@
+/* To make elements centered 
+
+text align center will make everything without width property used to get centered. And to center the one with display: block and width, just write " margin: 0 auto "
+
+*/
+
 /* *{
     margin: 0;
     padding: 0;
@@ -5,28 +11,64 @@
 
 body{
     margin: 0;
+    text-align: center;     
+    font-family: 'Merriweather', serif;
 }
 
 h1{
-    margin: 0;
+    font-size: 5.625rem; /*To make font size dynamic or to change with browser zoom in out, use %  100% = 16px = 1em   ::  90px = 562.5% = 5.625em*/
+    color: #66BFBF;
+    margin: 50px auto 0 auto;
+    /* line-height: 2;  Line spacing */
+    /* width: 10%;
+    margin: 0 auto; */
+    font-family: 'Sacramento', cursive;
+}
+
+h2{
+    font-size: 2.5rem; /* 2.5rem = 40px*/
+    font-family: 'Montserr', sans-serif;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 .top-container{
     background-color: #E4F9F5;
+    padding: 100px;
+    position: relative;
 }
 
 .pro{
     text-decoration: underline;
 }
 
+.top-cloud{
+    position: absolute;
+    right: 500px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 500px;
+    bottom: 350px;
+}
+
+a{
+    color:#11999E;
+}
+
 .middle-container{
-    height: 200px;
-    width: 200px;
-    background-color: red;
+    
 }
 .bottom-container{
-    height: 200px;
-    width: 200px;
-    background-color: blue;
+    
 }
+
 
